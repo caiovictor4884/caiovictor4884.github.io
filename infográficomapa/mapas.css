@@ -1,0 +1,145 @@
+img#mapa{
+display: block;
+
+margin: 20px  auto;
+background-color: rgba(196, 141, 102, 0.604);
+border : 1px solid black;
+width: 95%;
+
+
+
+
+
+
+}
+
+div#moldura{
+margin: 20px auto;
+display: block;
+width: 50%;
+background-color: rgb(71, 137, 52);
+padding: 5px;
+}
+
+
+div#variavel{
+background-color: rgb(216, 246, 207);
+color: white;
+font-size: 2em;
+padding: 10px;
+
+}
+a{
+    color: white;
+    font-size: 3vw; 
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 10%;
+    display: inline-block;
+}
+
+div#n1 , div#n2 , div#n3 {
+
+background-color: rgb(71, 137, 52) ;
+color: white;
+display: inline-block;
+font-size: 2vw;
+padding: 5px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+a#fava{
+    background-color:rgba(255, 255, 0 ) ; 
+}
+a#sorgo{
+    background-color: rgba(100, 148, 237); 
+}
+a#caferobusta{
+    background-color: rgba(255, 166, 0 ) ; 
+}
+a#cafearábica{
+    background-color:rgba(0, 0, 255 ) ; 
+}
+a#canadeaçucarlatex{
+    background-color:rgba(255, 0, 255 ) ; 
+}
+a#fumo{
+    background-color:rgba(255, 166, 0) ; 
+}
+a#arrozaveiacenteio{
+    background-color:rgba(172, 255, 47 ) ; 
+}
+a#trigocevada{
+    background-color:rgba(255, 255, 0 ) ; 
+}
+a#algodão{
+    background-color: rgba(128, 128, 128 ) ; 
+}
+a#girasol{
+    background-color:rgba(137, 43, 226 ) ; 
+}
+a#cebola{
+    background-color: rgb(41, 128, 0) ; 
+}
+a#macaxeiramandiocaaipim{
+    background-color:rgba(255, 0, 0 ) ; 
+}
+a#tomaterasteiro{
+    background-color: rgba(137, 43, 226 ) ; 
+}
+a#mamona{
+    background-color: rgba(0, 255, 255 ); 
+}
+a#batatainglesa{
+    background-color:rgba(255, 166, 0 ) ; 
+}
+a#alho{
+    background-color: rgba(255, 255, 0); 
+}
+a#guarana{
+    background-color: rgba(124, 0, 0 ) ; 
+}
+a#cajumelao{
+    background-color: rgba(124, 0, 0 ) ; 
+}
+a#cacau {
+    background-color: rgba(83, 43, 226 ); 
+}
+a#cacaugraviolaguaraná{
+    background-color: rgba(255, 166, 0 ) ; 
+}
+a#abacate{
+    background-color:rgba(0, 0, 255 ) ; 
+}
+a#açaipimenta{
+    background-color: rgba(192, 43, 226 ); 
+}
+a#maracujá{
+    background-color: rgba(255, 255, 0) ; 
+}
+a#mangauvademesa{
+    background-color: rgba(255, 0, 0 ) ; 
+}
+a#mamãopimenta{
+    background-color: rgba(0, 255, 255 ) ; 
+}
+a#laranja{
+    background-color: rgba(255, 166, 0 ); 
+}
+a#uvavinho{
+    background-color:  rgba(0, 255, 255 ) ; 
+}
+
+
+
+
+
+
+
+
