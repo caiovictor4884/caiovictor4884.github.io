@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Sriracha';
+    src: url('Sriracha-Regular.ttf')
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+header > p {
+    font-size: 2em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-family: Sriracha ;
+    font-size: 6vw;
+}
+
+section{
+ font-size: min(3em , 4vw);
+ font-family: Sriracha,  Georgia, Times, 'Times New Roman', serif ;
+ padding: 1em;
+ margin-top: 1em;
+ text-align: center;
+}
+
+section.back{
+background-color: aqua;
+}
+#n1{
+background-image: url('imagens/background001.jpg');
+background-position: top right;
+background-attachment: fixed;
+}
+#n2{
+background-image: url('imagens/background002.jpg');
+background-position: top right;
+background-attachment: fixed;
+}
+.cortina{
+    background-color: rgba(0, 0, 0, 0.500);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
