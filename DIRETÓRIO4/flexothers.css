@@ -1,0 +1,86 @@
+
+
+@media screen and (min-width:600px) {/*tablet*/
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    #externos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    header > nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    article{
+        width: 80vw;
+    }
+    }
+    img{
+        width: 80vw;
+        
+    }
+    body{
+        background-image: url('imagens/back-tablet.jpg');
+    }
+@media screen and (min-width:768px) {/* desktop*/
+  
+    
+    main{
+       display: flex;
+       flex-direction: row;
+    }
+    #externos{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+    header > nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+     }
+     article{
+        width: 50vw;
+     }
+     img{
+       width:  40vw ;
+       
+     }
+     body{
+        background-image: url('imagens/back-pc.jpg');
+     }
+
+     
+}
+@media screen and (min-width:1200px) {/*grandes telas*/
+
+     main{
+        display: flex;
+        flex-direction: row;
+     }
+     #externos{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+     }
+     header > nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+     }
+     article{
+        width: 50vw;
+     }
+     img{
+       width:  40vw ;
+     }
+     body{
+        background-image: url('imagens/back-tv.jpg');
+    }
+
+}

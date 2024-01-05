@@ -1,0 +1,42 @@
+body{
+    background-image: url('imagens/back-phone.jpg');
+    background-size: cover;
+}
+img{
+  width: 80vw;
+}
+header > nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#externos{
+    display: flex;
+    flex-direction: column;
+}
+header > nav >a , #externos > a {
+    width: 80vw;
+    font-size: 1.5em;
+}
+header >h1 , article > h1{
+    font-size: 2em;
+}
+p{
+    font-size: 1em;
+}
+header{
+    position: relative;
+}
+
+article{
+    width: 90vw;
+}
