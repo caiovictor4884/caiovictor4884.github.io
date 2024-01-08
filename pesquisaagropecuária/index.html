@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #teste{
+
+        
+        @media screen and (orientation : portrait) {
+            #teste{
             width: 600px;
             height: 200px;
-            background-color: red;
+            background-color: rgb(0, 34, 255);} 
         }
-        @media screen and (min-width : 600px) and (orientation : portrait) {
-            
+        @media screen and (orientation : landscape) {
+            #teste{
+            width: 600px;
+            height: 200px;
+            background-color: red;}
         }
 
     </style>
