@@ -103,6 +103,7 @@
         }
         div#resultado{
           width: 50vw ;
+          font-size: 3em;
         }
       }
         @media  screen and (orientation:portrait) {
@@ -134,7 +135,14 @@
         }
         div#resultado{
           width: 30vw ;
+          font-size: 2em;
         }
+      table{
+        font-size: 3em;
+      }
+      td{
+        font-size: 3em;
+      }
       }
     </style>
 
@@ -280,8 +288,12 @@
   
     <button id="botão1" onclick="processar()" >calcular</button>
     <div id="resultado" >resultado</div>
-</div>
-<div id="cont2">
+
+      
+  </div>
+  <div id="cont2">
+<p>
+Um tipo Vs todos os outros
   <select id="tipo">
     <option value ="0">NORMAL </option>
     <option value ="1">FIGHTING </option>
@@ -345,14 +357,17 @@
     <option value ="59">SANS </option>
     <option value ="60">REVERSE </option>
     <option value ="61">TYPE </option>
-   
+  
   
   </select>
-  <button id="botão2" onclick="tell()">calcular</button>
-  <table id="resultado2">
+</p>
 
-  </table>
-</div>
+    <button id="botão2" onclick="tell()">calcular</button>
+    <table id="resultado2">
+  
+    </table>
+  </div>
+
 
 
 
