@@ -5,24 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+    
+    @font-face {
+        font-family: 'Anton';
+        src: url('Anton-Regular.ttf');
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    :root{
+        --cor1: #00E54E;
+        --cor2: #2E4C38;
+        --cor3: #29332C;
+    }
 
+    header{
+        font-family: 'Anton';
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+        color: white;
+        font-size: max(1em,3vw);
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
         
+       
+    }
+    img#logo{
+        width: 10vw;
+        height: 10vw;
+        display: block;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        background-color: var(--cor3);
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    nav > a {
+        color: white;
+        text-decoration: none;
+        font-size: max(2vw,1em);
+        padding: 10px;
+       
+        display: inline-block;
+    }
+    nav > a:hover{
+        background-color: var(--cor1);
+    }
         @media screen and (orientation : portrait) {
-            #teste{
-            width: 600px;
-            height: 200px;
-            background-color: rgb(0, 34, 255);} 
+
         }
+
         @media screen and (orientation : landscape) {
-            #teste{
-            width: 600px;
-            height: 200px;
-            background-color: red;}
+  
         }
 
     </style>
+    <link rel="shortcut icon" href="imgs/logo2.ico" type="image/x-icon">
 </head>
 <body>
-    <div id="teste"></div>
+   <header>
+    <h1>Pesquisa Agropecuária</h1>
+    <img id="logo" src="imgs/logo2.jpg" alt="">
+   </header>
+   <nav>
+    <a href="#" target="_blank" rel="next">Dicionário</a>
+    <a href="#" target="_blank" rel="next">Brasil</a>
+    <a href="#" target="_blank" rel="next">Mundo</a>
+    <a href="#" target="_blank" rel="next">Agricultura</a>
+    <a href="#" target="_blank" rel="next">Agropecuária</a>
+    <a href="#" target="_blank" rel="next">fontes</a>
+    <a href="#" target="_blank" rel="next"  >Contato</a>
+   </nav>
+   <section id="aparecida"><img src="" alt=""> <p></p></section>
 </body>
 </html>

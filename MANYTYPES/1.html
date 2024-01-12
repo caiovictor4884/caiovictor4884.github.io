@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      div#cont1 , div#cont2 {
+        background-color: rgba(176, 73, 73, 0.682);
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        padding: 20px;
+        margin: 20px auto;
+        width: 30vw;
+      }
+      select{
+        font-size: 1.5em;
+      }
+      p{
+        margin: 2vh auto;
+        height: 4vh;
+        background-color: red;
+        color: white;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 2vh;
+      }
+      button{
+        width: 10vw;
+        height: 4vw;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        color: red;
+        font-size: 2em;
+        font-weight: bold;
+
+      }
+      
+      button:hover{
+        background-color: red;
+        color: white ;
+       
+        
+      }
+        div#resultado{
+          width: 20vw;
+          background-color: white;
+          color: rgb(156, 48, 48);
+          font-size: 2em;
+          font-weight: bolder;
+          margin: 1vh auto;
+          text-align: center;
+          padding: 10px;
+          border-radius: 10px;
+
+        }
+        table{
+          width: 10vw;
+          font-size: 2em;
+          background-color: rgba(255, 255, 255, 0.605);
+          
+        }
+        table td {
+          border: 2px solid black;
+          border-collapse: collapse;
+          
+        }
+        body{
+          background-image: url('R\ \(64\).jpg');
+          background-size: contain;
+        }
+        button#botão2{
+          margin: 2vh auto;
+        }
+
+    </style>
+</head>
+<body>
+<div id="cont1">
+<p>
+  Tipo que ataca :
+    <select id="atacante">
+      <option value ="0">NORMAL </option>
+      <option value ="1">FIGHTING </option>
+      <option value ="2">FLYING </option>
+      <option value ="3">POISON </option>
+      <option value ="4">GROUND </option>
+      <option value ="5">ROCK </option>
+      <option value ="6">BUG </option>
+      <option value ="7">GHOST </option>
+      <option value ="8">STEEL </option>
+      <option value ="9">Mystery </option>
+      <option value ="10">FIRE </option>
+      <option value ="11">WATER </option>
+      <option value ="12">GRASS </option>
+      <option value ="13">ELECTRIC </option>
+      <option value ="14">PSYCHIC </option>
+      <option value ="15">ICE </option>
+      <option value ="16">DRAGON </option>
+      <option value ="17">DARK </option>
+      <option value ="18">FAIRY </option>
+      <option value ="19">MONKE </option>
+      <option value ="20">ANGY </option>
+      <option value ="21">BABY </option>
+      <option value ="22">FRIEND </option>
+      <option value ="23">GUYS </option>
+      <option value ="24">LIQUID </option>
+      <option value ="25">VIBE </option>
+      <option value ="26">SONG </option>
+      <option value ="27">SPACE </option>
+      <option value ="28">FLUFFY </option>
+      <option value ="29">SUS </option>
+      <option value ="30">FURRY </option>
+      <option value ="31">BAD </option>
+      <option value ="32">ANCIENT </option>
+      <option value ="33">SILLY </option>
+      <option value ="34">STINKY </option>
+      <option value ="35">SHARP </option>
+      <option value ="36">MAGIC </option>
+      <option value ="37">GENDER </option>
+      <option value ="38">LITTLE </option>
+      <option value ="39">CRAB </option>
+      <option value ="40">DREAM </option>
+      <option value ="41">RIGHT </option>
+      <option value ="42">LEFT </option>
+      <option value ="43">ZOOMER </option>
+      <option value ="44">GAMER </option>
+      <option value ="45">DANCE </option>
+      <option value ="46">BORING </option>
+      <option value ="47">UGLY </option>
+      <option value ="48">GUN </option>
+      <option value ="49">PIKACHU </option>
+      <option value ="50">PRIME </option>
+      <option value ="51">OHIO </option>
+      <option value ="52">DEEZ NUTS </option>
+      <option value ="53">Normal2 </option>
+      <option value ="54">BEAN </option>
+      <option value ="55">BOOMER </option>
+      <option value ="56">SMASH </option>
+      <option value ="57">OU  </option>
+      <option value ="58">BALL </option>
+      <option value ="59">SANS </option>
+      <option value ="60">REVERSE </option>
+      <option value ="61">TYPE </option>
+       </select>
+</p>
+  
+<p>
+    tipo que defende:
+       <select id="defensor">
+        <option value ="0">NORMAL </option>
+        <option value ="1">FIGHTING </option>
+        <option value ="2">FLYING </option>
+        <option value ="3">POISON </option>
+        <option value ="4">GROUND </option>
+        <option value ="5">ROCK </option>
+        <option value ="6">BUG </option>
+        <option value ="7">GHOST </option>
+        <option value ="8">STEEL </option>
+        <option value ="9">Mystery </option>
+        <option value ="10">FIRE </option>
+        <option value ="11">WATER </option>
+        <option value ="12">GRASS </option>
+        <option value ="13">ELECTRIC </option>
+        <option value ="14">PSYCHIC </option>
+        <option value ="15">ICE </option>
+        <option value ="16">DRAGON </option>
+        <option value ="17">DARK </option>
+        <option value ="18">FAIRY </option>
+        <option value ="19">MONKE </option>
+        <option value ="20">ANGY </option>
+        <option value ="21">BABY </option>
+        <option value ="22">FRIEND </option>
+        <option value ="23">GUYS </option>
+        <option value ="24">LIQUID </option>
+        <option value ="25">VIBE </option>
+        <option value ="26">SONG </option>
+        <option value ="27">SPACE </option>
+        <option value ="28">FLUFFY </option>
+        <option value ="29">SUS </option>
+        <option value ="30">FURRY </option>
+        <option value ="31">BAD </option>
+        <option value ="32">ANCIENT </option>
+        <option value ="33">SILLY </option>
+        <option value ="34">STINKY </option>
+        <option value ="35">SHARP </option>
+        <option value ="36">MAGIC </option>
+        <option value ="37">GENDER </option>
+        <option value ="38">LITTLE </option>
+        <option value ="39">CRAB </option>
+        <option value ="40">DREAM </option>
+        <option value ="41">RIGHT </option>
+        <option value ="42">LEFT </option>
+        <option value ="43">ZOOMER </option>
+        <option value ="44">GAMER </option>
+        <option value ="45">DANCE </option>
+        <option value ="46">BORING </option>
+        <option value ="47">UGLY </option>
+        <option value ="48">GUN </option>
+        <option value ="49">PIKACHU </option>
+        <option value ="50">PRIME </option>
+        <option value ="51">OHIO </option>
+        <option value ="52">DEEZ NUTS </option>
+        <option value ="53">Normal2 </option>
+        <option value ="54">BEAN </option>
+        <option value ="55">BOOMER </option>
+        <option value ="56">SMASH </option>
+        <option value ="57">OU  </option>
+        <option value ="58">BALL </option>
+        <option value ="59">SANS </option>
+        <option value ="60">REVERSE </option>
+        <option value ="61">TYPE </option>
+         </select>
+  
+</p>
+  
+    <button id="botão1" onclick="processar()" >calcular</button>
+    <div id="resultado" >resultado</div>
+</div>
+<div id="cont2">
+  <select id="tipo">
+    <option value ="0">NORMAL </option>
+    <option value ="1">FIGHTING </option>
+    <option value ="2">FLYING </option>
+    <option value ="3">POISON </option>
+    <option value ="4">GROUND </option>
+    <option value ="5">ROCK </option>
+    <option value ="6">BUG </option>
+    <option value ="7">GHOST </option>
+    <option value ="8">STEEL </option>
+    <option value ="9">Mystery </option>
+    <option value ="10">FIRE </option>
+    <option value ="11">WATER </option>
+    <option value ="12">GRASS </option>
+    <option value ="13">ELECTRIC </option>
+    <option value ="14">PSYCHIC </option>
+    <option value ="15">ICE </option>
+    <option value ="16">DRAGON </option>
+    <option value ="17">DARK </option>
+    <option value ="18">FAIRY </option>
+    <option value ="19">MONKE </option>
+    <option value ="20">ANGY </option>
+    <option value ="21">BABY </option>
+    <option value ="22">FRIEND </option>
+    <option value ="23">GUYS </option>
+    <option value ="24">LIQUID </option>
+    <option value ="25">VIBE </option>
+    <option value ="26">SONG </option>
+    <option value ="27">SPACE </option>
+    <option value ="28">FLUFFY </option>
+    <option value ="29">SUS </option>
+    <option value ="30">FURRY </option>
+    <option value ="31">BAD </option>
+    <option value ="32">ANCIENT </option>
+    <option value ="33">SILLY </option>
+    <option value ="34">STINKY </option>
+    <option value ="35">SHARP </option>
+    <option value ="36">MAGIC </option>
+    <option value ="37">GENDER </option>
+    <option value ="38">LITTLE </option>
+    <option value ="39">CRAB </option>
+    <option value ="40">DREAM </option>
+    <option value ="41">RIGHT </option>
+    <option value ="42">LEFT </option>
+    <option value ="43">ZOOMER </option>
+    <option value ="44">GAMER </option>
+    <option value ="45">DANCE </option>
+    <option value ="46">BORING </option>
+    <option value ="47">UGLY </option>
+    <option value ="48">GUN </option>
+    <option value ="49">PIKACHU </option>
+    <option value ="50">PRIME </option>
+    <option value ="51">OHIO </option>
+    <option value ="52">DEEZ NUTS </option>
+    <option value ="53">Normal2 </option>
+    <option value ="54">BEAN </option>
+    <option value ="55">BOOMER </option>
+    <option value ="56">SMASH </option>
+    <option value ="57">OU  </option>
+    <option value ="58">BALL </option>
+    <option value ="59">SANS </option>
+    <option value ="60">REVERSE </option>
+    <option value ="61">TYPE </option>
+   
+  
+  </select>
+  <button id="botão2" onclick="tell()">calcular</button>
+  <table id="resultado2">
+
+  </table>
+</div>
+
+
+
+<script src="1.js"></script>
+  
+
+
+</body>
+</html>
