@@ -76,7 +76,8 @@ var pokemon =
     var n1 = document.getElementById('atacante')
     var n2 = document.getElementById('defensor')
     var res = document.getElementById('resultado')
-    var res2 = document.getElementById('resultado2')
+    var res2 = document.getElementById('Ataque')
+    var res3 = document.getElementById('Defesa')
     var tipo = document.getElementById('tipo')
     function processar(){
         res.innerHTML = matriz[Number(n1.value)][Number(n2.value)]
@@ -84,10 +85,23 @@ var pokemon =
     }
 
     function tell(){
-        res2.innerHTML = ''
+        res2.innerHTML = `    <thead>
+        <th colspan="2">Ataque</th>
+      </thead>`
         for(c = 0 ; c < 62 ; c++)
         res2.innerHTML +=  `<tr>
         <td>${pokemon[c]}</td> <td>${ matriz[Number(tipo.value)][c]}</td>
       </tr> `
+
+      res3.innerHTML = `    <thead>
+      <th colspan="2">Defesa</th>
+    </thead>`
+      for(c = 0 ; c < 62 ; c++)
+      res3.innerHTML +=  `<tr>
+      <td>${pokemon[c]}</td> <td>${ matriz[c][Number(tipo.value)]}</td>
+    </tr> `
+
+
+
     }
 

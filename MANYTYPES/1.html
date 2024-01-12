@@ -9,6 +9,10 @@
         margin: 0px;
         padding: 0px;
       }
+      section{
+        display: flex;
+        flex-direction: row;
+      }
       div#cont1 , div#cont2 {
         background-color: rgba(176, 73, 73, 0.682);
         display: flex;
@@ -144,6 +148,7 @@
       }
       table{
         width: 2vw;
+        margin: 2vw;
       }
       td{
         font-size: 2vw;
@@ -367,13 +372,25 @@ Um tipo Vs todos os outros
 </p>
 
     <button id="botão2" onclick="tell()">calcular</button>
-    <table id="resultado2">
+<section>
   
-    </table>
+  <table id="Defesa">
+    <thead>
+      <th colspan="2">Defesa</th>
+    </thead>
+  </table>
+  <table id="Ataque">
+    <thead>
+      <th colspan="2">Ataque</th>
+    </thead>
+  </table>
+</section>
+
   </div>
+  
 
 
-<footer style="background-color: white;">versão18</footer>
+<footer style="background-color: white;">versão19</footer>
 
 <script src="1.js"></script>
   
