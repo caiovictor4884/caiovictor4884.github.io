@@ -16,7 +16,7 @@
         align-content: space-around;
         padding: 20px;
         margin: 20px auto;
-        width: 30vw;
+     
       }
       select{
         font-size: 2vw;
@@ -49,11 +49,10 @@
        
         
       }
-        div#resultado{
-          width: 20vw;
+      div#resultado{
+          
           background-color: white;
           color: rgb(156, 48, 48);
-          font-size: 3vw;
           font-weight: bolder;
           margin: 1vh auto;
           text-align: center;
@@ -62,7 +61,7 @@
 
         }
         table{
-          width: 10vw;
+        
           font-size: 2vw;
           background-color: rgba(255, 255, 255, 0.605);
           
@@ -77,12 +76,69 @@
           background-size: cover;
           background-attachment: fixed;
         }
-        button#botão2{
-          margin: 2vh auto;
-        }
 
+
+        @media  screen and (orientation:landscape) {
+          button#botão2{
+          margin: 2vh auto;
+          width: 50vw;
+          font-size: 2vw;
+        }
+          button#botão1{
+          margin: 2vh auto;
+          width: 50vw;
+          font-size: 2vw;
+
+          }
+          table{
+            width: 30vw;
+          }
+          div#resultado{
+    width: 90vw;
+    font-size: 6vw;
+    
+  }
+  div#cont1 , div#cont2 {
+    width: 50vw;
+        }
+        div#resultado{
+          width: 50vw ;
+        }
+      }
+        @media  screen and (orientation:portrait) {
+          button#botão2{
+          margin: 4vh auto;
+          width: 30vw;
+          font-size: 3vw;
+          
+
+        }
+        button#botão1{
+          margin: 4vh auto;
+          width: 30vw;
+          font-size: 3vw;
+          
+
+          }
+
+        table{
+            width: 60vw;
+          }
+  div#resultado{
+    width: 50vw;
+    font-size: 3vw;
+
+  }
+  div#cont1 , div#cont2 {
+    width: 80vw;
+        }
+        div#resultado{
+          width: 30vw ;
+        }
+      }
     </style>
-</head>
+
+    </head>
 <body>
 <div id="cont1">
 <p>
